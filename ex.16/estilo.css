@@ -1,0 +1,48 @@
+body {
+    font: normal 15px Arial;
+    background: linear-gradient(to right, rgb(244, 220, 241), rgb(22, 51, 120)); /* Adiciona uma transição de cor ao fundo do corpo */
+    animation: backgroundTransition 5s infinite alternate; /* Adiciona uma animação para alternar as cores do fundo */
+}
+
+@keyframes backgroundTransition {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+header {
+    color: rgb(8, 8, 8);
+    text-align: center;
+}
+
+section {
+    
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(222, 12, 12, 0.347);
+    background: linear-gradient(to right, rgb(246, 250, 250), rgb(77, 61, 197)); /* Adiciona uma transição de cor utilizando uma função de cor RGB */
+    animation: colorTransition 5s infinite alternate; /* Adiciona uma animação para alternar as cores */
+}
+
+@keyframes colorTransition {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 100%;
+    }
+}
+
+
+footer {
+    color: rgb(32, 25, 107);
+    text-align: center;
+    font-style: italic;
+}
+

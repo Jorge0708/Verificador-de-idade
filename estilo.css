@@ -1,29 +1,30 @@
 body { 
-    background-color: rgb(209, 224, 241);
+    background-color: rgb(59, 186, 222);
     font: normal 15px arial;
 }
 
 header {
-    color: rgb(29, 24, 24);
+    color: rgb(8, 8, 8);
     text-align: center;
 }
 
 section {
-    background-color: rgb(129, 181, 184);
+    background-color: rgb(239, 245, 245);
     border-radius: 10px;
     padding: 15px;
     width: 500px;
     margin: auto;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.347);
+    box-shadow: 5px 5px 10px rgba(62, 46, 121, 0.347);
 }
 
 footer {
-    color: white;
+    color: rgb(148, 11, 11);
     text-align: center;
     font-style: italic;
 }
 p{
 text-align: center;
+
 
 }
 
